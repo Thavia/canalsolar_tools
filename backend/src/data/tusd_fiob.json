@@ -1,0 +1,921 @@
+[
+  {
+    "sigla": "Amazonas Energia",
+    "valor": 171.8411912,
+    "tusd": 493.86,
+    "pct_fio_b_na_tarifa": 35,
+    "sessenta_pct_fio_b": 103.1047147,
+    "pct_sessenta_fio_b_tusd": 21,
+    "custo_fio_b_100kwh": 10.31047147
+  },
+  {
+    "sigla": "Castro - DIS",
+    "valor": 167.4807057,
+    "tusd": 424.82,
+    "pct_fio_b_na_tarifa": 39,
+    "sessenta_pct_fio_b": 100.4884234,
+    "pct_sessenta_fio_b_tusd": 24,
+    "custo_fio_b_100kwh": 10.04884234
+  },
+  {
+    "sigla": "Cedrap",
+    "valor": 539.2652624,
+    "tusd": 825.44,
+    "pct_fio_b_na_tarifa": 65,
+    "sessenta_pct_fio_b": 323.5591574,
+    "pct_sessenta_fio_b_tusd": 39,
+    "custo_fio_b_100kwh": 32.35591574
+  },
+  {
+    "sigla": "Cedri",
+    "valor": 291.5147143,
+    "tusd": 589.47,
+    "pct_fio_b_na_tarifa": 49,
+    "sessenta_pct_fio_b": 174.9088286,
+    "pct_sessenta_fio_b_tusd": 30,
+    "custo_fio_b_100kwh": 17.49088286
+  },
+  {
+    "sigla": "CEGERO",
+    "valor": 125.7605466,
+    "tusd": 344.1,
+    "pct_fio_b_na_tarifa": 37,
+    "sessenta_pct_fio_b": 75.45632798,
+    "pct_sessenta_fio_b_tusd": 22,
+    "custo_fio_b_100kwh": 7.545632798
+  },
+  {
+    "sigla": "Cejama",
+    "valor": 294.8683344,
+    "tusd": 555.29,
+    "pct_fio_b_na_tarifa": 53,
+    "sessenta_pct_fio_b": 176.9210006,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 17.69210006
+  },
+  {
+    "sigla": "Celesc-DIS",
+    "valor": 132.746176,
+    "tusd": 373.75,
+    "pct_fio_b_na_tarifa": 36,
+    "sessenta_pct_fio_b": 79.64770559,
+    "pct_sessenta_fio_b_tusd": 21,
+    "custo_fio_b_100kwh": 7.964770559
+  },
+  {
+    "sigla": "CELETRO",
+    "valor": 237.2216023,
+    "tusd": 490.4,
+    "pct_fio_b_na_tarifa": 48,
+    "sessenta_pct_fio_b": 142.3329614,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 14.23329614
+  },
+  {
+    "sigla": "Cemig-D",
+    "valor": 257.2069791,
+    "tusd": 541.3,
+    "pct_fio_b_na_tarifa": 48,
+    "sessenta_pct_fio_b": 154.3241875,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 15.43241875
+  },
+  {
+    "sigla": "Cemirim",
+    "valor": 227.3552295,
+    "tusd": 445.8,
+    "pct_fio_b_na_tarifa": 51,
+    "sessenta_pct_fio_b": 136.4131377,
+    "pct_sessenta_fio_b_tusd": 31,
+    "custo_fio_b_100kwh": 13.64131377
+  },
+  {
+    "sigla": "Ceprag",
+    "valor": 354.4528573,
+    "tusd": 642.08,
+    "pct_fio_b_na_tarifa": 55,
+    "sessenta_pct_fio_b": 212.6717144,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 21.26717144
+  },
+  {
+    "sigla": "Ceraça",
+    "valor": 363.0792723,
+    "tusd": 723.72,
+    "pct_fio_b_na_tarifa": 50,
+    "sessenta_pct_fio_b": 217.8475634,
+    "pct_sessenta_fio_b_tusd": 30,
+    "custo_fio_b_100kwh": 21.78475634
+  },
+  {
+    "sigla": "Ceral Anitápolis",
+    "valor": 427.0776901,
+    "tusd": 780.93,
+    "pct_fio_b_na_tarifa": 55,
+    "sessenta_pct_fio_b": 256.2466141,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 25.62466141
+  },
+  {
+    "sigla": "Ceral Araruama",
+    "valor": 562.5105394,
+    "tusd": 981.55,
+    "pct_fio_b_na_tarifa": 57,
+    "sessenta_pct_fio_b": 337.5063236,
+    "pct_sessenta_fio_b_tusd": 34,
+    "custo_fio_b_100kwh": 33.75063236
+  },
+  {
+    "sigla": "Ceral DIS",
+    "valor": 209.7066352,
+    "tusd": 476.01,
+    "pct_fio_b_na_tarifa": 44,
+    "sessenta_pct_fio_b": 125.8239811,
+    "pct_sessenta_fio_b_tusd": 26,
+    "custo_fio_b_100kwh": 12.58239811
+  },
+  {
+    "sigla": "Cerbranorte",
+    "valor": 164.8874231,
+    "tusd": 402.54,
+    "pct_fio_b_na_tarifa": 41,
+    "sessenta_pct_fio_b": 98.93245385,
+    "pct_sessenta_fio_b_tusd": 25,
+    "custo_fio_b_100kwh": 9.893245385
+  },
+  {
+    "sigla": "CERCI",
+    "valor": 525.8792843,
+    "tusd": 992.02,
+    "pct_fio_b_na_tarifa": 53,
+    "sessenta_pct_fio_b": 315.5275706,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 31.55275706
+  },
+  {
+    "sigla": "Cercos",
+    "valor": 474.9379957,
+    "tusd": 741.85,
+    "pct_fio_b_na_tarifa": 64,
+    "sessenta_pct_fio_b": 284.9627974,
+    "pct_sessenta_fio_b_tusd": 38,
+    "custo_fio_b_100kwh": 28.49627974
+  },
+  {
+    "sigla": "Cerej",
+    "valor": 384.0176937,
+    "tusd": 724.69,
+    "pct_fio_b_na_tarifa": 53,
+    "sessenta_pct_fio_b": 230.4106162,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 23.04106162
+  },
+  {
+    "sigla": "Ceres",
+    "valor": 585.2735996,
+    "tusd": 1077.52,
+    "pct_fio_b_na_tarifa": 54,
+    "sessenta_pct_fio_b": 351.1641598,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 35.11641598
+  },
+  {
+    "sigla": "CERFOX",
+    "valor": 236.5956631,
+    "tusd": 559.49,
+    "pct_fio_b_na_tarifa": 42,
+    "sessenta_pct_fio_b": 141.9573979,
+    "pct_sessenta_fio_b_tusd": 25,
+    "custo_fio_b_100kwh": 14.19573979
+  },
+  {
+    "sigla": "Cergal",
+    "valor": 344.986201,
+    "tusd": 580.92,
+    "pct_fio_b_na_tarifa": 59,
+    "sessenta_pct_fio_b": 206.9917206,
+    "pct_sessenta_fio_b_tusd": 36,
+    "custo_fio_b_100kwh": 20.69917206
+  },
+  {
+    "sigla": "Cergapa",
+    "valor": 230.8929835,
+    "tusd": 514.08,
+    "pct_fio_b_na_tarifa": 45,
+    "sessenta_pct_fio_b": 138.5357901,
+    "pct_sessenta_fio_b_tusd": 27,
+    "custo_fio_b_100kwh": 13.85357901
+  },
+  {
+    "sigla": "Cergral",
+    "valor": 361.6916685,
+    "tusd": 691.72,
+    "pct_fio_b_na_tarifa": 52,
+    "sessenta_pct_fio_b": 217.0150011,
+    "pct_sessenta_fio_b_tusd": 31,
+    "custo_fio_b_100kwh": 21.70150011
+  },
+  {
+    "sigla": "Ceriluz",
+    "valor": 124.6434806,
+    "tusd": 356.15,
+    "pct_fio_b_na_tarifa": 35,
+    "sessenta_pct_fio_b": 74.78608837,
+    "pct_sessenta_fio_b_tusd": 21,
+    "custo_fio_b_100kwh": 7.478608837
+  },
+  {
+    "sigla": "Cerim",
+    "valor": 343.8157854,
+    "tusd": 623.06,
+    "pct_fio_b_na_tarifa": 55,
+    "sessenta_pct_fio_b": 206.2894712,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 20.62894712
+  },
+  {
+    "sigla": "Ceripa",
+    "valor": 313.2390818,
+    "tusd": 605.54,
+    "pct_fio_b_na_tarifa": 52,
+    "sessenta_pct_fio_b": 187.9434491,
+    "pct_sessenta_fio_b_tusd": 31,
+    "custo_fio_b_100kwh": 18.79434491
+  },
+  {
+    "sigla": "Ceris",
+    "valor": 378.3316615,
+    "tusd": 679.15,
+    "pct_fio_b_na_tarifa": 56,
+    "sessenta_pct_fio_b": 226.9989969,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 22.69989969
+  },
+  {
+    "sigla": "CERMC",
+    "valor": 335.361302,
+    "tusd": 623.17,
+    "pct_fio_b_na_tarifa": 54,
+    "sessenta_pct_fio_b": 201.2167812,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 20.12167812
+  },
+  {
+    "sigla": "Cermissões",
+    "valor": 234.5375671,
+    "tusd": 493.17,
+    "pct_fio_b_na_tarifa": 48,
+    "sessenta_pct_fio_b": 140.7225403,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 14.07225403
+  },
+  {
+    "sigla": "Cermoful",
+    "valor": 352.4656857,
+    "tusd": 592.51,
+    "pct_fio_b_na_tarifa": 59,
+    "sessenta_pct_fio_b": 211.4794114,
+    "pct_sessenta_fio_b_tusd": 36,
+    "custo_fio_b_100kwh": 21.14794114
+  },
+  {
+    "sigla": "Cernhe",
+    "valor": 287.8079243,
+    "tusd": 586.76,
+    "pct_fio_b_na_tarifa": 49,
+    "sessenta_pct_fio_b": 172.6847546,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 17.26847546
+  },
+  {
+    "sigla": "Cerpalo",
+    "valor": 431.0070472,
+    "tusd": 710.82,
+    "pct_fio_b_na_tarifa": 61,
+    "sessenta_pct_fio_b": 258.6042283,
+    "pct_sessenta_fio_b_tusd": 36,
+    "custo_fio_b_100kwh": 25.86042283
+  },
+  {
+    "sigla": "Cerpro",
+    "valor": 359.0741191,
+    "tusd": 564.16,
+    "pct_fio_b_na_tarifa": 64,
+    "sessenta_pct_fio_b": 215.4444715,
+    "pct_sessenta_fio_b_tusd": 38,
+    "custo_fio_b_100kwh": 21.54444715
+  },
+  {
+    "sigla": "CERRP",
+    "valor": 283.8248536,
+    "tusd": 508.14,
+    "pct_fio_b_na_tarifa": 56,
+    "sessenta_pct_fio_b": 170.2949122,
+    "pct_sessenta_fio_b_tusd": 34,
+    "custo_fio_b_100kwh": 17.02949122
+  },
+  {
+    "sigla": "Cersad",
+    "valor": 257.2680822,
+    "tusd": 503.3,
+    "pct_fio_b_na_tarifa": 51,
+    "sessenta_pct_fio_b": 154.3608493,
+    "pct_sessenta_fio_b_tusd": 31,
+    "custo_fio_b_100kwh": 15.43608493
+  },
+  {
+    "sigla": "Cersul",
+    "valor": 227.220782,
+    "tusd": 424.26,
+    "pct_fio_b_na_tarifa": 54,
+    "sessenta_pct_fio_b": 136.3324692,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 13.63324692
+  },
+  {
+    "sigla": "Certaja",
+    "valor": 150.2055724,
+    "tusd": 379.24,
+    "pct_fio_b_na_tarifa": 40,
+    "sessenta_pct_fio_b": 90.12334345,
+    "pct_sessenta_fio_b_tusd": 24,
+    "custo_fio_b_100kwh": 9.012334345
+  },
+  {
+    "sigla": "Certel",
+    "valor": 268.2479135,
+    "tusd": 508.47,
+    "pct_fio_b_na_tarifa": 53,
+    "sessenta_pct_fio_b": 160.9487481,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 16.09487481
+  },
+  {
+    "sigla": "CERTHIL",
+    "valor": 160.8766047,
+    "tusd": 373.31,
+    "pct_fio_b_na_tarifa": 43,
+    "sessenta_pct_fio_b": 96.52596282,
+    "pct_sessenta_fio_b_tusd": 26,
+    "custo_fio_b_100kwh": 9.652596282
+  },
+  {
+    "sigla": "Certrel",
+    "valor": 597.3049749,
+    "tusd": 920.82,
+    "pct_fio_b_na_tarifa": 65,
+    "sessenta_pct_fio_b": 358.382985,
+    "pct_sessenta_fio_b_tusd": 39,
+    "custo_fio_b_100kwh": 35.8382985
+  },
+  {
+    "sigla": "CERVAM",
+    "valor": 300.3298297,
+    "tusd": 609.21,
+    "pct_fio_b_na_tarifa": 49,
+    "sessenta_pct_fio_b": 180.1978978,
+    "pct_sessenta_fio_b_tusd": 30,
+    "custo_fio_b_100kwh": 18.01978978
+  },
+  {
+    "sigla": "Cetril",
+    "valor": 384.984259,
+    "tusd": 652.1,
+    "pct_fio_b_na_tarifa": 59,
+    "sessenta_pct_fio_b": 230.9905554,
+    "pct_sessenta_fio_b_tusd": 35,
+    "custo_fio_b_100kwh": 23.09905554
+  },
+  {
+    "sigla": "Chesp",
+    "valor": 288.0133753,
+    "tusd": 529.06,
+    "pct_fio_b_na_tarifa": 54,
+    "sessenta_pct_fio_b": 172.8080252,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 17.28080252
+  },
+  {
+    "sigla": "Cocel",
+    "valor": 152.7865964,
+    "tusd": 366.67,
+    "pct_fio_b_na_tarifa": 42,
+    "sessenta_pct_fio_b": 91.67195783,
+    "pct_sessenta_fio_b_tusd": 25,
+    "custo_fio_b_100kwh": 9.167195783
+  },
+  {
+    "sigla": "Codesam",
+    "valor": 145.5885212,
+    "tusd": 323.59,
+    "pct_fio_b_na_tarifa": 45,
+    "sessenta_pct_fio_b": 87.35311272,
+    "pct_sessenta_fio_b_tusd": 27,
+    "custo_fio_b_100kwh": 8.735311272
+  },
+  {
+    "sigla": "Coopera",
+    "valor": 337.2832662,
+    "tusd": 519.7,
+    "pct_fio_b_na_tarifa": 65,
+    "sessenta_pct_fio_b": 202.3699597,
+    "pct_sessenta_fio_b_tusd": 39,
+    "custo_fio_b_100kwh": 20.23699597
+  },
+  {
+    "sigla": "Cooperaliança",
+    "valor": 183.9164113,
+    "tusd": 373.75,
+    "pct_fio_b_na_tarifa": 49,
+    "sessenta_pct_fio_b": 110.3498468,
+    "pct_sessenta_fio_b_tusd": 30,
+    "custo_fio_b_100kwh": 11.03498468
+  },
+  {
+    "sigla": "Coopercocal",
+    "valor": 240.1362567,
+    "tusd": 405.66,
+    "pct_fio_b_na_tarifa": 59,
+    "sessenta_pct_fio_b": 144.081754,
+    "pct_sessenta_fio_b_tusd": 36,
+    "custo_fio_b_100kwh": 14.4081754
+  },
+  {
+    "sigla": "Cooperluz",
+    "valor": 20.45094597,
+    "tusd": 246,
+    "pct_fio_b_na_tarifa": 8,
+    "sessenta_pct_fio_b": 12.27056758,
+    "pct_sessenta_fio_b_tusd": 5,
+    "custo_fio_b_100kwh": 1.227056758
+  },
+  {
+    "sigla": "Coopermila",
+    "valor": 117.4796489,
+    "tusd": 394.23,
+    "pct_fio_b_na_tarifa": 30,
+    "sessenta_pct_fio_b": 70.48778936,
+    "pct_sessenta_fio_b_tusd": 18,
+    "custo_fio_b_100kwh": 7.048778936
+  },
+  {
+    "sigla": "COOPERNORTE",
+    "valor": 511.8941497,
+    "tusd": 974.26,
+    "pct_fio_b_na_tarifa": 53,
+    "sessenta_pct_fio_b": 307.1364898,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 30.71364898
+  },
+  {
+    "sigla": "COOPERSUL",
+    "valor": 195.0220223,
+    "tusd": 559.08,
+    "pct_fio_b_na_tarifa": 35,
+    "sessenta_pct_fio_b": 117.0132134,
+    "pct_sessenta_fio_b_tusd": 21,
+    "custo_fio_b_100kwh": 11.70132134
+  },
+  {
+    "sigla": "COOPERZEM",
+    "valor": 229.0482434,
+    "tusd": 558.03,
+    "pct_fio_b_na_tarifa": 41,
+    "sessenta_pct_fio_b": 137.4289461,
+    "pct_sessenta_fio_b_tusd": 25,
+    "custo_fio_b_100kwh": 13.74289461
+  },
+  {
+    "sigla": "Coorsel",
+    "valor": 258.298701,
+    "tusd": 526.09,
+    "pct_fio_b_na_tarifa": 49,
+    "sessenta_pct_fio_b": 154.9792206,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 15.49792206
+  },
+  {
+    "sigla": "Copel-DIS",
+    "valor": 159.1363027,
+    "tusd": 366.67,
+    "pct_fio_b_na_tarifa": 43,
+    "sessenta_pct_fio_b": 95.48178163,
+    "pct_sessenta_fio_b_tusd": 26,
+    "custo_fio_b_100kwh": 9.548178163
+  },
+  {
+    "sigla": "COPREL",
+    "valor": 78.99806588,
+    "tusd": 344.49,
+    "pct_fio_b_na_tarifa": 23,
+    "sessenta_pct_fio_b": 47.39883953,
+    "pct_sessenta_fio_b_tusd": 14,
+    "custo_fio_b_100kwh": 4.739883953
+  },
+  {
+    "sigla": "CPFL Paulista",
+    "valor": 206.6458973,
+    "tusd": 388.15,
+    "pct_fio_b_na_tarifa": 53,
+    "sessenta_pct_fio_b": 123.9875384,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 12.39875384
+  },
+  {
+    "sigla": "CPFL Piratininga",
+    "valor": 189.0081644,
+    "tusd": 395.64,
+    "pct_fio_b_na_tarifa": 48,
+    "sessenta_pct_fio_b": 113.4048986,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 11.34048986
+  },
+  {
+    "sigla": "CPFL Santa Cruz",
+    "valor": 199.8933576,
+    "tusd": 442.66,
+    "pct_fio_b_na_tarifa": 45,
+    "sessenta_pct_fio_b": 119.9360146,
+    "pct_sessenta_fio_b_tusd": 27,
+    "custo_fio_b_100kwh": 11.99360146
+  },
+  {
+    "sigla": "Creluz-D",
+    "valor": 208.1650948,
+    "tusd": 440.34,
+    "pct_fio_b_na_tarifa": 47,
+    "sessenta_pct_fio_b": 124.8990569,
+    "pct_sessenta_fio_b_tusd": 28,
+    "custo_fio_b_100kwh": 12.48990569
+  },
+  {
+    "sigla": "Creral",
+    "valor": 354.9454514,
+    "tusd": 648.73,
+    "pct_fio_b_na_tarifa": 55,
+    "sessenta_pct_fio_b": 212.9672709,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 21.29672709
+  },
+  {
+    "sigla": "Dcelt",
+    "valor": 137.7781091,
+    "tusd": 373.77,
+    "pct_fio_b_na_tarifa": 37,
+    "sessenta_pct_fio_b": 82.66686549,
+    "pct_sessenta_fio_b_tusd": 22,
+    "custo_fio_b_100kwh": 8.266686549
+  },
+  {
+    "sigla": "Demei",
+    "valor": 144.5668563,
+    "tusd": 411.98,
+    "pct_fio_b_na_tarifa": 35,
+    "sessenta_pct_fio_b": 86.74011376,
+    "pct_sessenta_fio_b_tusd": 21,
+    "custo_fio_b_100kwh": 8.674011376
+  },
+  {
+    "sigla": "DMED",
+    "valor": 213.7990596,
+    "tusd": 396.43,
+    "pct_fio_b_na_tarifa": 54,
+    "sessenta_pct_fio_b": 128.2794357,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 12.82794357
+  },
+  {
+    "sigla": "EDP ES",
+    "valor": 203.8307219,
+    "tusd": 468.63,
+    "pct_fio_b_na_tarifa": 43,
+    "sessenta_pct_fio_b": 122.2984332,
+    "pct_sessenta_fio_b_tusd": 26,
+    "custo_fio_b_100kwh": 12.22984332
+  },
+  {
+    "sigla": "EDP SP",
+    "valor": 198.7656457,
+    "tusd": 456.67,
+    "pct_fio_b_na_tarifa": 44,
+    "sessenta_pct_fio_b": 119.2593874,
+    "pct_sessenta_fio_b_tusd": 26,
+    "custo_fio_b_100kwh": 11.92593874
+  },
+  {
+    "sigla": "EFLJC",
+    "valor": 299.3798875,
+    "tusd": 373.75,
+    "pct_fio_b_na_tarifa": 80,
+    "sessenta_pct_fio_b": 179.6279325,
+    "pct_sessenta_fio_b_tusd": 48,
+    "custo_fio_b_100kwh": 17.96279325
+  },
+  {
+    "sigla": "Eflul",
+    "valor": 226.8108213,
+    "tusd": 472.73,
+    "pct_fio_b_na_tarifa": 48,
+    "sessenta_pct_fio_b": 136.0864928,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 13.60864928
+  },
+  {
+    "sigla": "Eletrocar",
+    "valor": 209.2727016,
+    "tusd": 420.85,
+    "pct_fio_b_na_tarifa": 50,
+    "sessenta_pct_fio_b": 125.5636209,
+    "pct_sessenta_fio_b_tusd": 30,
+    "custo_fio_b_100kwh": 12.55636209
+  },
+  {
+    "sigla": "ELFSM",
+    "valor": 198.0701718,
+    "tusd": 441.98,
+    "pct_fio_b_na_tarifa": 45,
+    "sessenta_pct_fio_b": 118.8421031,
+    "pct_sessenta_fio_b_tusd": 27,
+    "custo_fio_b_100kwh": 11.88421031
+  },
+  {
+    "sigla": "Enel CE",
+    "valor": 291.7009681,
+    "tusd": 464.88,
+    "pct_fio_b_na_tarifa": 63,
+    "sessenta_pct_fio_b": 175.0205808,
+    "pct_sessenta_fio_b_tusd": 38,
+    "custo_fio_b_100kwh": 17.50205808
+  },
+  {
+    "sigla": "Enel RJ",
+    "valor": 352.3575174,
+    "tusd": 631.98,
+    "pct_fio_b_na_tarifa": 56,
+    "sessenta_pct_fio_b": 211.4145105,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 21.14145105
+  },
+  {
+    "sigla": "Enel SP",
+    "valor": 212.4649833,
+    "tusd": 432.44,
+    "pct_fio_b_na_tarifa": 49,
+    "sessenta_pct_fio_b": 127.47899,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 12.747899
+  },
+  {
+    "sigla": "Energisa AC",
+    "valor": 367.6304075,
+    "tusd": 716.68,
+    "pct_fio_b_na_tarifa": 51,
+    "sessenta_pct_fio_b": 220.5782445,
+    "pct_sessenta_fio_b_tusd": 31,
+    "custo_fio_b_100kwh": 22.05782445
+  },
+  {
+    "sigla": "Energisa Minas Rio",
+    "valor": 237.2312636,
+    "tusd": 462.35,
+    "pct_fio_b_na_tarifa": 51,
+    "sessenta_pct_fio_b": 142.3387582,
+    "pct_sessenta_fio_b_tusd": 31,
+    "custo_fio_b_100kwh": 14.23387582
+  },
+  {
+    "sigla": "Energisa MS",
+    "valor": 348.6238465,
+    "tusd": 592.08,
+    "pct_fio_b_na_tarifa": 59,
+    "sessenta_pct_fio_b": 209.1743079,
+    "pct_sessenta_fio_b_tusd": 35,
+    "custo_fio_b_100kwh": 20.91743079
+  },
+  {
+    "sigla": "Energisa MT",
+    "valor": 319.9388246,
+    "tusd": 549.47,
+    "pct_fio_b_na_tarifa": 58,
+    "sessenta_pct_fio_b": 191.9632948,
+    "pct_sessenta_fio_b_tusd": 35,
+    "custo_fio_b_100kwh": 19.19632948
+  },
+  {
+    "sigla": "Energisa PB",
+    "valor": 236.032157,
+    "tusd": 419.33,
+    "pct_fio_b_na_tarifa": 56,
+    "sessenta_pct_fio_b": 141.6192942,
+    "pct_sessenta_fio_b_tusd": 34,
+    "custo_fio_b_100kwh": 14.16192942
+  },
+  {
+    "sigla": "Energisa RO",
+    "valor": 321.8132521,
+    "tusd": 622.26,
+    "pct_fio_b_na_tarifa": 52,
+    "sessenta_pct_fio_b": 193.0879513,
+    "pct_sessenta_fio_b_tusd": 31,
+    "custo_fio_b_100kwh": 19.30879513
+  },
+  {
+    "sigla": "Energisa SE",
+    "valor": 266.2970866,
+    "tusd": 439.83,
+    "pct_fio_b_na_tarifa": 61,
+    "sessenta_pct_fio_b": 159.778252,
+    "pct_sessenta_fio_b_tusd": 36,
+    "custo_fio_b_100kwh": 15.9778252
+  },
+  {
+    "sigla": "Energisa Sul Sudeste",
+    "valor": 167.8436042,
+    "tusd": 423.67,
+    "pct_fio_b_na_tarifa": 40,
+    "sessenta_pct_fio_b": 100.7061625,
+    "pct_sessenta_fio_b_tusd": 24,
+    "custo_fio_b_100kwh": 10.07061625
+  },
+  {
+    "sigla": "Energisa TO",
+    "valor": 427.5540747,
+    "tusd": 640.42,
+    "pct_fio_b_na_tarifa": 67,
+    "sessenta_pct_fio_b": 256.5324448,
+    "pct_sessenta_fio_b_tusd": 40,
+    "custo_fio_b_100kwh": 25.65324448
+  },
+  {
+    "sigla": "Equatorial AL",
+    "valor": 300.1449625,
+    "tusd": 569.27,
+    "pct_fio_b_na_tarifa": 53,
+    "sessenta_pct_fio_b": 180.0869775,
+    "pct_sessenta_fio_b_tusd": 32,
+    "custo_fio_b_100kwh": 18.00869775
+  },
+  {
+    "sigla": "Equatorial CEEE",
+    "valor": 187.3013494,
+    "tusd": 478.63,
+    "pct_fio_b_na_tarifa": 39,
+    "sessenta_pct_fio_b": 112.3808096,
+    "pct_sessenta_fio_b_tusd": 23,
+    "custo_fio_b_100kwh": 11.23808096
+  },
+  {
+    "sigla": "Equatorial GO",
+    "valor": 291.8575432,
+    "tusd": 567.67,
+    "pct_fio_b_na_tarifa": 51,
+    "sessenta_pct_fio_b": 175.1145259,
+    "pct_sessenta_fio_b_tusd": 31,
+    "custo_fio_b_100kwh": 17.51145259
+  },
+  {
+    "sigla": "Equatorial MA",
+    "valor": 333.2457563,
+    "tusd": 559.86,
+    "pct_fio_b_na_tarifa": 60,
+    "sessenta_pct_fio_b": 199.9474538,
+    "pct_sessenta_fio_b_tusd": 36,
+    "custo_fio_b_100kwh": 19.99474538
+  },
+  {
+    "sigla": "Equatorial PA",
+    "valor": 385.8238501,
+    "tusd": 692.08,
+    "pct_fio_b_na_tarifa": 56,
+    "sessenta_pct_fio_b": 231.4943101,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 23.14943101
+  },
+  {
+    "sigla": "Equatorial PI",
+    "valor": 364.8767945,
+    "tusd": 647.22,
+    "pct_fio_b_na_tarifa": 56,
+    "sessenta_pct_fio_b": 218.9260767,
+    "pct_sessenta_fio_b_tusd": 34,
+    "custo_fio_b_100kwh": 21.89260767
+  },
+  {
+    "sigla": "Hidropan",
+    "valor": 193.4983175,
+    "tusd": 394.49,
+    "pct_fio_b_na_tarifa": 49,
+    "sessenta_pct_fio_b": 116.0989905,
+    "pct_sessenta_fio_b_tusd": 29,
+    "custo_fio_b_100kwh": 11.60989905
+  },
+  {
+    "sigla": "Light",
+    "valor": 210.3790407,
+    "tusd": 513.3,
+    "pct_fio_b_na_tarifa": 41,
+    "sessenta_pct_fio_b": 126.2274244,
+    "pct_sessenta_fio_b_tusd": 25,
+    "custo_fio_b_100kwh": 12.62274244
+  },
+  {
+    "sigla": "MuxEnergia",
+    "valor": 150.8810298,
+    "tusd": 439.21,
+    "pct_fio_b_na_tarifa": 34,
+    "sessenta_pct_fio_b": 90.52861789,
+    "pct_sessenta_fio_b_tusd": 21,
+    "custo_fio_b_100kwh": 9.052861789
+  },
+  {
+    "sigla": "Neoenergia Brasília",
+    "valor": 133.2700253,
+    "tusd": 423.92,
+    "pct_fio_b_na_tarifa": 31,
+    "sessenta_pct_fio_b": 79.96201517,
+    "pct_sessenta_fio_b_tusd": 19,
+    "custo_fio_b_100kwh": 7.996201517
+  },
+  {
+    "sigla": "Neoenergia Coelba",
+    "valor": 350.5259231,
+    "tusd": 560.48,
+    "pct_fio_b_na_tarifa": 63,
+    "sessenta_pct_fio_b": 210.3155539,
+    "pct_sessenta_fio_b_tusd": 38,
+    "custo_fio_b_100kwh": 21.03155539
+  },
+  {
+    "sigla": "Neoenergia Cosern",
+    "valor": 262.2647031,
+    "tusd": 432.6,
+    "pct_fio_b_na_tarifa": 61,
+    "sessenta_pct_fio_b": 157.3588219,
+    "pct_sessenta_fio_b_tusd": 36,
+    "custo_fio_b_100kwh": 15.73588219
+  },
+  {
+    "sigla": "Neoenergia Elektro",
+    "valor": 204.8329126,
+    "tusd": 477.85,
+    "pct_fio_b_na_tarifa": 43,
+    "sessenta_pct_fio_b": 122.8997475,
+    "pct_sessenta_fio_b_tusd": 26,
+    "custo_fio_b_100kwh": 12.28997475
+  },
+  {
+    "sigla": "Neoenergia Pernambuco",
+    "valor": 270.8386418,
+    "tusd": 487.78,
+    "pct_fio_b_na_tarifa": 56,
+    "sessenta_pct_fio_b": 162.5031851,
+    "pct_sessenta_fio_b_tusd": 33,
+    "custo_fio_b_100kwh": 16.25031851
+  },
+  {
+    "sigla": "Nova Palma",
+    "valor": 235.5860212,
+    "tusd": 472.32,
+    "pct_fio_b_na_tarifa": 50,
+    "sessenta_pct_fio_b": 141.3516127,
+    "pct_sessenta_fio_b_tusd": 30,
+    "custo_fio_b_100kwh": 14.13516127
+  },
+  {
+    "sigla": "Pacto Energia",
+    "valor": 214.2485563,
+    "tusd": 366.67,
+    "pct_fio_b_na_tarifa": 58,
+    "sessenta_pct_fio_b": 128.5491338,
+    "pct_sessenta_fio_b_tusd": 35,
+    "custo_fio_b_100kwh": 12.85491338
+  },
+  {
+    "sigla": "RGE",
+    "valor": 303.5328643,
+    "tusd": 517.75,
+    "pct_fio_b_na_tarifa": 59,
+    "sessenta_pct_fio_b": 182.1197186,
+    "pct_sessenta_fio_b_tusd": 35,
+    "custo_fio_b_100kwh": 18.21197186
+  },
+  {
+    "sigla": "Roraima Energia",
+    "valor": 193.7936593,
+    "tusd": 334.63,
+    "pct_fio_b_na_tarifa": 58,
+    "sessenta_pct_fio_b": 116.2761956,
+    "pct_sessenta_fio_b_tusd": 35,
+    "custo_fio_b_100kwh": 11.62761956
+  },
+  {
+    "sigla": "Sulgipe",
+    "valor": 296.7815875,
+    "tusd": 447.53,
+    "pct_fio_b_na_tarifa": 66,
+    "sessenta_pct_fio_b": 178.0689525,
+    "pct_sessenta_fio_b_tusd": 40,
+    "custo_fio_b_100kwh": 17.80689525
+  }
+]
+
