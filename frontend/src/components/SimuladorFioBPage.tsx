@@ -188,7 +188,7 @@ export default function SimuladorFioBPage() {
       <Helmet>
         <title>Simulador Fio B - Canal Solar</title>
       </Helmet>
-      <div className="min-h-[600px] bg-gradient-to-br from-primary-950 via-primary-900 to-black flex items-center justify-center px-4 py-10">
+      <div className="min-h-[100vh] bg-gradient-to-br from-primary-950 via-primary-900 to-black flex items-center justify-center px-4 py-10">
         <div className="w-full max-w-4xl">
           <div className="text-center">
             <div className="text-white text-2xl sm:text-3xl font-semibold">Fio B na Tarifa de Energia</div>
