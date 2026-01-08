@@ -44,7 +44,7 @@ router.get('/', async (req, res) => {
     }
 
     // Ordenar por sigla
-    filtered.sort((a, b) => a.sigla.localeCompare(b, 'pt-BR'));
+    filtered.sort((a, b) => a.sigla.localeCompare(b.sigla, 'pt-BR'));
 
     return res.json({
       success: true,
