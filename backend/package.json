@@ -6,8 +6,9 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "build" : "tsc && npm run copy-assets",
+    "copy-assets": "cp -r src/data dist/data"
   },
   "keywords": [
     "fio-b",
