@@ -91,11 +91,8 @@ export default function SimuladorFioBPage() {
 
     const valor = selectedData.valor;
     const tusd = selectedData.tusd;
-    const sessentaPctFioB = selectedData.sessenta_pct_fio_b;
-
-    const tarifaTotal = selectedData.pct_fio_b_na_tarifa > 0 
-      ? (valor / selectedData.pct_fio_b_na_tarifa) * 100 
-      : tusd;
+    const sessentaPctFioB = 0.6 *  valor;
+    const tarifaTotal = selectedData.tusd_te;
 
     const pctFioBNaTarifa = tarifaTotal > 0 ? (valor / tarifaTotal) * 100 : 0;
     const pctFioBNaTusd = tusd > 0 ? (valor / tusd) * 100 : 0;
@@ -293,6 +290,35 @@ export default function SimuladorFioBPage() {
               </div>
             ) : selectedData ? (
               <div className="mt-6">
+                {formSubmitted && (
+                  <div className="mb-6 p-4 bg-gradient-to-br from-primary-600/10 to-primary-800/10 border border-primary-400/20 rounded-xl">
+                    <div className="text-white text-sm font-semibold mb-3 text-center">
+                      📊 Resultado da Simulação
+                    </div>
+                    <div className="text-white/70 text-xs mb-4 text-center">
+                      Área de concessão atual: <span className="font-semibold">{selectedArea}</span>
+                    </div>
+                    <div className="mb-4">
+                      <label className="block text-xs text-white/60 mb-2">Trocar área de concessão</label>
+                      <SearchableSelect
+                        value={selectedArea}
+                        onChange={(newArea) => {
+                          setSelectedArea(newArea);
+                          // Recalculará automaticamente via useMemo quando selectedArea mudar
+                        }}
+                        options={areas.map((a) => ({ value: a, label: a }))}
+                        placeholder="Selecione outra área de concessão…"
+                        disabled={loading}
+                        searchable
+                        allowClear={false}
+                      />
+                      <div className="text-white/40 text-xs mt-2 text-center">
+                        Os dados serão recalculados automaticamente ao trocar a área
+                      </div>
+                    </div>
+                  </div>
+                )}
+
                 <div className="bg-gradient-to-br from-primary-600/20 to-primary-800/20 border border-primary-400/30 rounded-xl p-6 mb-6">
                   <div className="text-center">
                     <div className="text-white/60 text-sm mb-2">% de 60% do Fio B na Tarifa Total (2026)</div>
@@ -304,7 +330,7 @@ export default function SimuladorFioBPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-                    <div className="text-white/50 text-xs uppercase tracking-wider mb-3">Valores (R$ / KWh)</div>
+                    <div className="text-white/50 text-xs  tracking-wider mb-3">VALORES (R$ / KWh)</div>
                     <div className="space-y-3">
                       <div>
                         <div className="text-white/60 text-xs">Valor do Fio B</div>
@@ -313,9 +339,13 @@ export default function SimuladorFioBPage() {
                       <div>
                         <div className="text-white/60 text-xs">TUSD</div>
                         <div className="text-white text-lg font-semibold">{formatCurrency(selectedData.tusd / 1000)}</div>
+                      </div> 
+                      <div>
+                        <div className="text-white/60 text-xs">TE</div>
+                        <div className="text-white text-lg font-semibold">{formatCurrency(selectedData.te / 1000)}</div>
                       </div>
                       <div>
-                        <div className="text-white/60 text-xs">60% do Fio B</div>
+                        <div className="text-white/60 text-xs">60% do Fio B na TUSD</div>
                         <div className="text-white text-lg font-semibold">
                           {formatCurrency(selectedData.sessenta_pct_fio_b / 1000)}
                         </div>
@@ -326,12 +356,7 @@ export default function SimuladorFioBPage() {
                   <div className="bg-white/5 border border-white/10 rounded-lg p-4">
                     <div className="text-white/50 text-xs uppercase tracking-wider mb-3">Percentuais</div>
                     <div className="space-y-3">
-                      <div>
-                        <div className="text-white/60 text-xs">% do Fio B na Tarifa Total</div>
-                        <div className="text-white text-lg font-semibold">
-                          {formatPct(calculatedValues?.pctFioBNaTarifa)}
-                        </div>
-                      </div>
+                     
                       <div>
                         <div className="text-white/60 text-xs">% do Fio B na TUSD</div>
                         <div className="text-white text-lg font-semibold">
@@ -347,15 +372,7 @@ export default function SimuladorFioBPage() {
                     </div>
                   </div>
 
-                  <div className="bg-white/5 border border-white/10 rounded-lg p-4 md:col-span-2">
-                    <div className="text-white/50 text-xs uppercase tracking-wider mb-3">Custo de Referência</div>
-                    <div>
-                      <div className="text-white/60 text-xs">Quanto custa o Fio B a cada 100 kWh</div>
-                      <div className="text-white text-2xl font-semibold mt-1">
-                        {formatCurrency(selectedData.custo_fio_b_100kwh)}
-                      </div>
-                    </div>
-                  </div>
+              
                 </div>
 
                 <div className="mt-6 p-4 bg-white/5 border border-white/10 rounded-lg">
@@ -376,10 +393,12 @@ export default function SimuladorFioBPage() {
                       setNome('');
                       setWhatsapp('');
                       setEmail('');
+                      setSubmitSuccess(false);
+                      setSubmitError(null);
                     }}
                     className="px-6 py-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white rounded-lg transition-colors duration-200"
                   >
-                    🔄 Nova consulta
+                    🔄 Nova simulação completa
                   </button>
                 </div>
               </div>
