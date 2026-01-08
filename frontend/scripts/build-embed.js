@@ -23,5 +23,5 @@ if (existsSync(join(publicDir, 'loader.js'))) {
 console.log('✓ Build do widget embedável concluído!');
 console.log('\nPara usar o widget em outros sites, adicione:');
 console.log('<div id="simulador"></div>');
-console.log('<script src="https://seu-dominio.com/loader.js"></script>');
+console.log('<script src="https://tools.canalsolar.com.br/loader.js"></script>');
 
