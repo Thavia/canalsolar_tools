@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from '../utils/helmet'
 import heroBackground from '../assets/bg_curso_homer_sam.webp'
 import {
   AboutCanalSolarSection,
@@ -503,8 +503,15 @@ export default function CursoHomerSamPage() {
             </div>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.9)]">
-            <div className="overflow-hidden rounded-xl border border-white/10">
-              <img src={certificateImageUrl} alt="Certificação Canal Solar" className="w-full object-cover" />
+            <div className="aspect-[4/3] overflow-hidden rounded-xl border border-white/10">
+              <img
+                src={certificateImageUrl}
+                alt="Certificação Canal Solar"
+                width={1200}
+                height={900}
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

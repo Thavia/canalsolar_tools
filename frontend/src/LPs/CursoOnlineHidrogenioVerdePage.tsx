@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from '../utils/helmet';
 import { AboutCanalSolarSection, FooterCopyright, PricingSection } from '../components/CourseSections';
 
 const checkoutUrl = 'https://checkout.canalsolar.com.br/checkout/hidrogenio-verde';
@@ -377,7 +377,13 @@ export default function CursoOnlineHidrogenioVerdePage() {
         >
           <div className="mx-auto max-w-6xl px-6 py-20">
             <div className="flex items-center justify-between">
-              <img src={logoUrl} alt="Canal Solar Educacional" className="h-5" />            
+              <img
+                src={logoUrl}
+                alt="Canal Solar Educacional"
+                width={140}
+                height={28}
+                className="h-5 w-auto"
+              />            
             </div>
             <div className="mt-12 grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
               <div>
@@ -646,8 +652,15 @@ export default function CursoOnlineHidrogenioVerdePage() {
               </ul>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.9)]">
-              <div className="overflow-hidden rounded-xl border border-white/10">
-                <img src={certificateImageUrl} alt="Certificação Canal Solar" className="w-full object-cover" />
+              <div className="aspect-[4/3] overflow-hidden rounded-xl border border-white/10">
+                <img
+                  src={certificateImageUrl}
+                  alt="Certificação Canal Solar"
+                  width={1200}
+                  height={900}
+                  className="h-full w-full object-cover"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>

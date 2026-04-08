@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { tarifaFioBService, FioBData } from '../services/tarifaFioBService';
 import SearchableSelect from '../components/SearchableSelect';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from '../utils/helmet';
 import axios from 'axios';
 
 function formatPct(n: number | null | undefined) {
@@ -559,7 +559,13 @@ export default function SimuladorFioBPage() {
           </div>
 
           <div className="mt-4 text-center text-white/40 text-center">  
-            <img src="https://bcb27500.delivery.rocketcdn.me/wp-content/uploads/2024/05/LOGO-CANAL-SOLAR-VERSAO-4-copiar.webp" alt="CANAL SOLAR" className="h-10 w-auto mx-auto" />
+            <img
+              src="https://bcb27500.delivery.rocketcdn.me/wp-content/uploads/2024/05/LOGO-CANAL-SOLAR-VERSAO-4-copiar.webp"
+              alt="CANAL SOLAR"
+              width={200}
+              height={40}
+              className="h-10 w-auto mx-auto"
+            />
           </div>
         </div>
       </div>

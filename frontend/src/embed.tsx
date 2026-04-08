@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import SimuladorFioBPage from './LPs/SimuladorFioBPage.tsx'
 import './index.css'
-import { HelmetProvider } from 'react-helmet-async'
+import { HelmetProvider } from './utils/helmet'
 
 // Função para inicializar o widget em um elemento específico
 function initWidget(elementId: string = 'simulador') {

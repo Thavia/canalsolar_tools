@@ -341,7 +341,9 @@ export function AboutCanalSolarSection() {
               <img
                 src="https://bcb27500.delivery.rocketcdn.me/wp-content/uploads/2024/05/LOGO-CANAL-SOLAR-VERSAO-4-copiar.webp"
                 alt="Canal Solar"
-                className="h-10"
+                width={200}
+                height={40}
+                className="h-10 w-auto"
                 loading="lazy"
               />
             </div>
@@ -371,7 +373,9 @@ export function FooterCopyright() {
         <img
           src="https://cursos.canalsolar.com.br/wp-content/uploads/2025/03/CANAL-EDUCACIONAL-LOGO-VERSAO-2.png"
           alt="Canal Solar Educacional"
-          className="h-10"
+          width={200}
+          height={40}
+          className="h-10 w-auto"
           loading="lazy"
         />
         <div className="text-sm text-white/70">2026 © DIREITOS RESERVADOS</div>

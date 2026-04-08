@@ -5,18 +5,25 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npm run build:ssr",
     "build:embed": "tsc && vite build && node scripts/build-embed.js",
-    "preview": "vite preview"
+    "build:client": "tsc && vite build --outDir dist/client",
+    "build:server": "vite build --ssr src/entry-server.tsx --outDir dist/server",
+    "build:ssr": "npm run build:client && npm run build:server",
+    "preview": "vite preview",
+    "start": "node server.mjs"
   },
   "dependencies": {
     "axios": "^1.6.2",
+    "express": "^4.19.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-gtm-module": "^2.0.11",
-    "react-helmet-async": "^2.0.4"
+    "react-helmet-async": "^2.0.4",
+    "recharts": "^3.8.0"
   },
   "devDependencies": {
+    "@types/node": "^20.11.0",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@types/react-gtm-module": "^2.0.4",
@@ -28,7 +35,3 @@
     "vite": "^5.0.8"
   }
 }
-
-
-
-

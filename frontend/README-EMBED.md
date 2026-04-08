@@ -16,7 +16,7 @@ Primeiro, gere os arquivos de build do widget:
 npm run build:embed
 ```
 
-Isso irá gerar os seguintes arquivos na pasta `dist/`:
+Isso irá gerar os seguintes arquivos na pasta `dist/client`:
 - `loader.js` - Script loader que deve ser incluído nos sites
 - `assets/embed.js` - JavaScript principal do widget
 - `assets/index.css` - Estilos do widget
@@ -24,7 +24,7 @@ Isso irá gerar os seguintes arquivos na pasta `dist/`:
 
 ### 2. Hospedar os Arquivos
 
-Faça upload dos arquivos da pasta `dist/` para seu servidor web. Por exemplo:
+Faça upload dos arquivos da pasta `dist/client` para seu servidor web. Por exemplo:
 - `https://seu-dominio.com/loader.js`
 - `https://seu-dominio.com/assets/embed.js`
 - `https://seu-dominio.com/assets/index.css`
@@ -114,7 +114,7 @@ frontend/
 │   └── loader.js          # Script loader para sites externos
 ├── embed.html             # HTML para build do embed
 ├── embed-example.html     # Exemplo de uso
-└── dist/                  # Arquivos gerados pelo build
+└── dist/client/           # Arquivos gerados pelo build
     ├── loader.js
     └── assets/
         ├── embed.js

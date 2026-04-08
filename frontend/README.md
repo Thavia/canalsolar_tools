@@ -167,16 +167,16 @@ colors: {
 npm run build
 ```
 
-Os arquivos otimizados estarão em `dist/`.
+Os arquivos otimizados estarão em `dist/client` (frontend) e `dist/server` (SSR).
 
 ### Hospedagem
 
-A aplicação pode ser hospedada em qualquer serviço de hospedagem estática:
+A aplicação pode ser hospedada com SSR via `node server.mjs` ou apenas como estática usando o conteúdo de `dist/client`:
 
 - **Vercel**: `vercel deploy`
-- **Netlify**: Arraste a pasta `dist`
+- **Netlify**: Arraste a pasta `dist/client`
 - **GitHub Pages**: Configure no repositório
-- **AWS S3 + CloudFront**: Upload da pasta `dist`
+- **AWS S3 + CloudFront**: Upload da pasta `dist/client`
 
 ### Variáveis de Ambiente em Produção
 

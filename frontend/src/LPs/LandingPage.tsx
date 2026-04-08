@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from '../utils/helmet';
 import capaEbook from '../assets/capa_ebook_fiob.webp';
 import topoEbook from '../assets/topo_ebook_fiob.webp';
 
@@ -21,6 +21,8 @@ export default function LandingPage() {
             <img 
               src="https://bcb27500.delivery.rocketcdn.me/wp-content/uploads/2024/05/LOGO-CANAL-SOLAR-VERSAO-4-copiar.webp" 
               alt="CANAL SOLAR" 
+              width={200}
+              height={40}
               className="h-12 w-auto" 
             />
           </div>
@@ -47,6 +49,8 @@ export default function LandingPage() {
                         <img 
                           src={capaEbook} 
                           alt="Capa do E-book Fio B na Geração Distribuída" 
+                          width={900}
+                          height={1200}
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -67,6 +71,8 @@ export default function LandingPage() {
                         <img 
                           src={capaEbook} 
                           alt="E-book Fio B no tablet" 
+                          width={900}
+                          height={1200}
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -253,6 +259,8 @@ export default function LandingPage() {
             <img 
               src="https://bcb27500.delivery.rocketcdn.me/wp-content/uploads/2024/05/LOGO-CANAL-SOLAR-VERSAO-4-copiar.webp" 
               alt="CANAL SOLAR" 
+              width={200}
+              height={40}
               className="h-10 w-auto mx-auto mb-4" 
             />
             <p className="text-white/40 text-sm">
