@@ -18,6 +18,7 @@ export default defineConfig((env) => {
     },
     build: {
       outDir: isSsrBuild ? 'dist/server' : 'dist/client',
+      manifest: !isSsrBuild,
       minify: 'esbuild',
       cssMinify: true,
       rollupOptions: isSsrBuild
@@ -54,8 +55,3 @@ export default defineConfig((env) => {
     },
   }
 })
-
-
-
-
-

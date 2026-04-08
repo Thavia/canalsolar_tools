@@ -345,6 +345,7 @@ export function AboutCanalSolarSection() {
                 height={40}
                 className="h-10 w-auto"
                 loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
@@ -377,6 +378,7 @@ export function FooterCopyright() {
           height={40}
           className="h-10 w-auto"
           loading="lazy"
+          decoding="async"
         />
         <div className="text-sm text-white/70">2026 © DIREITOS RESERVADOS</div>
         <div className="text-xs text-white/60">CNPJ: 59.832.151/0001-59</div>

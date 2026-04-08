@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from 'express'
 import { existsSync, promises as fs } from 'node:fs'
 import path from 'node:path'
@@ -5,7 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const port = Number(process.env.PORT) || 3000
+const port = Number(process.env.PORT) || 3004
 const root = __dirname
 const distClientIndex = path.resolve(root, 'dist/client/index.html')
 const isProd =
@@ -92,7 +93,14 @@ if (!isProd) {
     walk(entry)
 
     const styleLinks = Array.from(styles)
-      .map((href) => `<link rel="stylesheet" href="/${href}">`)
+      .map((href) => {
+        const url = `/${href}`
+        return [
+          `<link rel="preload" href="${url}" as="style">`,
+          `<link rel="stylesheet" href="${url}" media="print" onload="this.media='all'">`,
+          `<noscript><link rel="stylesheet" href="${url}"></noscript>`,
+        ].join('')
+      })
       .join('')
     const fontLinks = Array.from(fonts)
       .map(

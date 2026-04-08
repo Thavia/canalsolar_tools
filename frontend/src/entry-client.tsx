@@ -8,7 +8,19 @@ const tagManagerArgs = {
   gtmId: 'GTM-MZNNZXH',
 }
 
-TagManager.initialize(tagManagerArgs)
+const scheduleGtmInit = () => {
+  TagManager.initialize(tagManagerArgs)
+}
+
+if (typeof window !== 'undefined') {
+  if ('requestIdleCallback' in window) {
+    window.requestIdleCallback(scheduleGtmInit, { timeout: 3000 })
+  } else {
+    globalThis.setTimeout(scheduleGtmInit, 1500)
+  }
+} else {
+  scheduleGtmInit()
+}
 
 const container = document.getElementById('root')
 
